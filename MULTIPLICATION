@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+void main ()
+{
+ int a,b,s;
+ printf("MULTIPLICATION\n");
+ printf("ENTER THE FIRST NUMBER = ");
+ scanf("%d",&a);
+ printf("ENTER THE SECOND NUMBER = ");
+ scanf("%d",&b);
+ s=a*b;
+ printf("YOUR ANSWER IS = %d",s)
+ return 0;
+}
